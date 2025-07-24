@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.Main{
+    height: 100vh;
+    width: 100%;
+    background-image:     linear-gradient(rgba(0, 0, 0, 0.389), rgba(0, 0, 0, 0.2)), url(./IMG_2361[1].JPG);
+    background-position: center  0px;
+    background-repeat: no-repeat;    
+    background-size: cover;          
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+}
+.Main-Info{
+    color: white;
+    text-align: center;
+    transform: translateX(-200px);
+        
+}
+.Main-Info .Hello{
+   
+    display: flex;
+
+}
+.Main-Info .Hello h1{
+    font-size: 100px;
+}
+.Comma,.Single-Quote,.Dot{
+    display: flex;
+    color: rgb(229, 232, 53);
+    padding: 0px 3px 0px 3px;
+}
+.Main h1{
+    font-size: 60px;
+}
+.Self{
+    display: flex;
+    /* width: 50px; */
+}
+.Name{
+    display: flex;
+}
+
+.Profession{
+    padding-top: 20px;
+    font-size: 25px;
+    display: flex;
+
+}
+.Main2{
+    height: 100vh;
+    width: 100%;
+    background-color: #959595;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background-image: url(./pexels-negativespace-169573.jpg);
+    background-position: center  0px;
+    background-repeat: no-repeat;    
+    background-size: cover;  
+}
+.Quote {
+  text-align: center;
+}
+.Quote h1 {
+  display: inline-block;
+  font-size: 30px;
+  position: relative;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 500;
+}
+.Main3{
+    background: #000;
+    height: 100vh;
+    width: 100%;
+}
