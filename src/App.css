@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  background-color:black;
+.App{
+  background-color: black;
+  overflow: hidden;
 }
