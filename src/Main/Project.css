@@ -3,7 +3,7 @@
 }
 
 .Main4{
-  min-height: 300vh;
+  min-height: 430vh;
   width: 100%;
   background-color:moccasin;
   position: relative;
@@ -202,7 +202,7 @@ border-bottom-right-radius: 12px;
 .card--1{
   position: absolute;
   top: 5%;
-  left:10%;
+  left:12%;
 }
 .card--2{
   position: absolute;
@@ -212,12 +212,12 @@ border-bottom-right-radius: 12px;
 .card--3{
   position: absolute;
   top: 65%;
-  left: 10%;
+  left: 12%;
 }
 @media (max-width: 400px) {
 
 .Main4{
-  min-height: 100vh;
+  min-height: 380vh;
   width: 100%;
   background-color:moccasin;
   position: relative;
@@ -243,7 +243,8 @@ border-bottom-right-radius: 12px;
   font-size: 13px;
 }
 .Space{
-  height: 120vh;
+  height: 130vh;
+  width: 100%;
 }
 .project-title {
   font-size: 6rem;
@@ -389,24 +390,24 @@ border-bottom-right-radius: 12px;
     opacity: 1;
 }
 .Card_project{
-  height: 200vh;
+  height: 250vh;
   width: 100%;
   /* background-color: aqua; */
   position: relative;
 }
 .card--1{
   position: absolute;
-  top: 5%;
+  top: 7%;
   left: 5%;
 }
 .card--2{
   position: absolute;
-  top: 35%;
+  top: 37%;
   left: 35%;
 }
 .card--3{
   position: absolute;
-  top: 65%;
-  left: 10%;
+  top: 70.2%;
+  left: 5%;
 }
 } 

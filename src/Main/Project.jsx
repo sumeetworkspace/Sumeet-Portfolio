@@ -15,7 +15,7 @@ const Project = () => {
      trigger: ".Main4",
      start: "top 50%",
      end: "bottom 50%",
-     markers: true,
+    //  markers: true,
      onEnter: () => {
        gsap.to(".bg-title", { y: 0, opacity: 1, duration: 1.5 });
        gsap.to(".bg-subtitle", { y: 0, opacity: 1, duration: 1.5 });
