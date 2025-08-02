@@ -42,7 +42,7 @@ const Home = () => {
       opacity: 0,
       duration: 1,
       ease: "back.out(1.7)",
-    });
+    }, "-=0.5");
 
     tl.from(".Name", {
       x: -100,
@@ -57,7 +57,7 @@ const Home = () => {
       opacity: 0,
       duration: 1,
       ease: "power3.out",
-    }, "-=0.3");
+    }, "-=0.5");
 
     gsap.to(".Main-bg", {
       y: 100,
