@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Sumeet-Portfolio/static/css/main.b07ab93e.css",
-    "main.js": "/Sumeet-Portfolio/static/js/main.1da56964.js",
+    "main.css": "/Sumeet-Portfolio/static/css/main.a91fcdc8.css",
+    "main.js": "/Sumeet-Portfolio/static/js/main.9e851d12.js",
     "static/media/coding1.mp4": "/Sumeet-Portfolio/static/media/coding1.321fe793ea57c236f528.mp4",
     "static/media/codingbg.mp4": "/Sumeet-Portfolio/static/media/codingbg.87c2a3c56315bedf2c2f.mp4",
     "static/media/image.png": "/Sumeet-Portfolio/static/media/image.88995a0c9d8e562ddf39.png",
     "static/media/LOGO1.png": "/Sumeet-Portfolio/static/media/LOGO1.20535ece1c037744cb3d.png",
     "index.html": "/Sumeet-Portfolio/index.html",
-    "main.b07ab93e.css.map": "/Sumeet-Portfolio/static/css/main.b07ab93e.css.map",
-    "main.1da56964.js.map": "/Sumeet-Portfolio/static/js/main.1da56964.js.map"
+    "main.a91fcdc8.css.map": "/Sumeet-Portfolio/static/css/main.a91fcdc8.css.map",
+    "main.9e851d12.js.map": "/Sumeet-Portfolio/static/js/main.9e851d12.js.map"
   },
   "entrypoints": [
-    "static/css/main.b07ab93e.css",
-    "static/js/main.1da56964.js"
+    "static/css/main.a91fcdc8.css",
+    "static/js/main.9e851d12.js"
   ]
 }
