@@ -336,7 +336,7 @@
 }
 
 .Hello h1{
-    transform: translateY(-8px);
+    transform: translateY(-11px);
     font-size: 30vw;
     font-weight: 900;
 
@@ -359,20 +359,22 @@
 .Coding-Video video{
     height: 10vh;
     width: 26vh;
-    transform: translateY(4px);
+    transform: translateY(4px); 
 
 }
 
 .Name h1{
-    font-size: 5.5vh;
+    font-size: 9.5vw;
     padding-left: 5px;
     padding-top: 5px;
 }
 .Profession{
     padding: 3px 0 0 6px;
-    font-size: 25px;
     /* height: 25px;
     width: 100%; */
+  }
+.Profession h3{
+  font-size: 5.5vw;
 }
 .Main1 {
   position: relative;
