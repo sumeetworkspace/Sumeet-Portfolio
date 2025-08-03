@@ -106,14 +106,14 @@ ScrollTrigger.create({
       start: "top+=200 70%",
       end: "bottom-=100 30%",
       onEnter: () => {
-        gsap.to(".About", { width: 900, height: 600, padding:17, duration: 1 });
-        gsap.to(".About p", { fontSize: 25, duration: 1 });
-        gsap.to(".About .button-Resume", { width: 180, height: 30, fontSize: 18, duration: 1 });
+        gsap.to(".About", { width: 900, height: 600, padding:17, duration: 1, ease: "sine.inOut" });
+        gsap.to(".About p", { fontSize: 25, duration: 1, ease: "sine.inOut" });
+        gsap.to(".About .button-Resume", { width: 180, height: 30, fontSize: 18, duration: 1, ease: "sine.inOut" });
       },
       onLeaveBack: () => {
-        gsap.to(".About", { width: 700, height: 350, padding:17, duration: 1 });
-        gsap.to(".About p", { fontSize: 19, duration: 1 });
-        gsap.to(".About .button-Resume", { width: 120, height: 25, fontSize: 12, duration: 1 });
+        gsap.to(".About", { width: 700, height: 350, padding:17, duration: 1, ease: "sine.inOut" });
+        gsap.to(".About p", { fontSize: 19, duration: 1, ease: "sine.inOut" });
+        gsap.to(".About .button-Resume", { width: 120, height: 25, fontSize: 12, duration: 1, ease: "sine.inOut" });
       }
     });
 
@@ -131,19 +131,75 @@ ScrollTrigger.create({
     return () => ScrollTrigger.getAll().forEach(t => t.kill());
   });
 
-  mm.add("(max-width: 390px)", () => {
+  mm.add("(max-width: 400px)", () => {
     // 📱 Mobile styles only
-  gsap.set(".Quote-L1", { x: -600, opacity: 0 });
-  gsap.set(".Quote-L2", { x: 600, opacity: 0 });
+   const tl = gsap.timeline();
+
+    tl.from(".Main", {
+      opacity: 0,
+      x: 300,
+      duration: 1.2,
+    });
+
+    tl.from(".Hello", {
+      y: -100,
+      opacity: 0,
+      duration: 1.2,
+      ease: "power3.out",
+    });
+
+    tl.from(".Self", {
+      x: -100,
+      opacity: 0,
+      duration: 1.2,
+      ease: "power3.out",
+      stagger: 0.2,
+    }, "-=0.5");
+
+    tl.from(".Coding-Video", {
+      scale: 0,
+      opacity: 0,
+      duration: 1.2,
+      ease: "back.out(1.7)",
+    }, "-=0.5");
+
+    tl.from(".Name", {
+      x: -100,
+      opacity: 0,
+      duration: 1.2,
+      ease: "power3.out",
+      stagger: 0.2,
+    }, "-=0.5");
+
+    tl.from(".Profession", {
+      y: 100,
+      opacity: 0,
+      duration: 1.2,
+      ease: "power3.out",
+    }, "-=0.5");
+
+    gsap.to(".Main-bg", {
+      y: 100,
+      ease: "none",
+      scrollTrigger: {
+        trigger: ".Main",
+        start: "top top",
+        end: "bottom top",
+        scrub: 2,
+      }
+    });
+
+  gsap.set(".Quote-L1", { x: -800, opacity: 0 });
+  gsap.set(".Quote-L2", { x: 800, opacity: 0 });
 
   ScrollTrigger.create({
     trigger: ".Main1",
     start: "top+=50 100%",
     end: "bottom 30%",
-    // markers: true,
+    markers: true,
     onEnter: () => {
-      gsap.to(".Quote-L1", { x: 0, opacity: 1, duration: 1.5 });
-      gsap.to(".Quote-L2", { x: 0, opacity: 1, duration: 1.5 });
+      gsap.to(".Quote-L1", { x: 0, opacity: 1, duration: 5.5,ease: "power1.in" });
+      gsap.to(".Quote-L2", { x: 0, opacity: 1, duration: 5.5,ease: "power1.in" });
     },
     onLeave: () => {
       gsap.to(".Quote-L1", { x: -600, opacity: 0, duration: 1.5 });
@@ -169,14 +225,14 @@ ScrollTrigger.create({
       end: "bottom-=100 30%",
       // markers:true,
       onEnter: () => {
-        gsap.to(".About", { width: 350, height: 300, padding:10, duration: 1 });
-        gsap.to(".About p", { fontSize: 13, duration: 1 });
-        gsap.to(".About .button-Resume", { width: 120, height: 30, fontSize: 10, duration: 1 });
+        gsap.to(".About", { width: 350, height: 300, padding:10, duration: 1,ease: "sine.inOut" });
+        gsap.to(".About p", { fontSize: 13, duration: 1,ease: "sine.inOut" });
+        gsap.to(".About .button-Resume", { width: 120, height: 30, fontSize: 10, duration: 1,ease: "sine.inOut" });
       },
       onLeaveBack: () => {
-        gsap.to(".About", { width: 280, height: 140, padding:8, duration: 1 });
-        gsap.to(".About p", { fontSize: 7, duration: 1 });
-        gsap.to(".About .button-Resume", { width: 80, height: 15, fontSize: 6, duration: 1 });
+        gsap.to(".About", { width: 280, height: 140, padding:8, duration: 1, ease: "sine.inOut"  });
+        gsap.to(".About p", { fontSize: 7, duration: 1, ease: "sine.inOut" });
+        gsap.to(".About .button-Resume", { width: 80, height: 15, fontSize: 6, duration: 1, ease: "sine.inOut" });
       }
     });
 
@@ -191,7 +247,7 @@ ScrollTrigger.create({
 
   return (
     <>
-      <div className="Main">
+      <div className="Main" id="Home">
         <div className="Main-bg"></div>
         <div className="Main-Info">
           <div className="Hello">

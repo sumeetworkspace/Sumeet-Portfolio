@@ -35,7 +35,7 @@ const Project = () => {
    });
   },[]);
   return (
-    <div className="Main4">
+    <div className="Main4" id="Project">
   <div className="background-heading">
     <h1 className="bg-title">Project</h1>
     <h3 className="bg-subtitle">"Crafted with code, Animated with passion."</h3>

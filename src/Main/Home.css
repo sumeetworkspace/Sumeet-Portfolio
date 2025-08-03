@@ -320,7 +320,7 @@
   top: 0;
   border-radius: 10px;
 }
-@media (max-width: 390px) {
+@media (max-width: 400px) {
 .Main{
     height: 75vh;
     width: 100%;
@@ -336,13 +336,13 @@
         
 }
 .Main-Info .Hello{
-  height: 15vh;
+  height: 16.5vh;
   width: 100%;
   /* align-items: center;  */
 }
 
 .Hello h1{
-    transform: translateY(-14px);
+    transform: translateY(-12px);
     font-size: 30vw;
     font-weight: 900;
 
@@ -356,21 +356,21 @@
 }
 .Self h1 {
   transform: translateY(-5px);
-  font-size: 5.8rem;
-  font-weight: 600;
+  font-size: 6.5rem;
+  font-weight: 700;
 }
 .Coding-Video{
-  padding-left: 5px;
+  padding-left: 8px;
 }
 .Coding-Video video{
-    height: 75px;
+    height: 73px;
     width: 175px;
-    transform: translateY(5px);
+    transform: translateY(3px);
 
 }
 
 .Name h1{
-    font-size: 5.4vh;
+    font-size: 6vh;
     padding-left: 6px;
     padding-top: 5px;
 }

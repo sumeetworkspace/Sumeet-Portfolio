@@ -153,12 +153,10 @@ h2 {
     justify-content: space-between;
     height: 70px;
   }
-
-.Logo img{
-  height: 30px;
-  width: 30px;
-}
-
+  .Logo img{
+    height: 45px;
+    width: 45px;
+  }
   .menu-icon {
     display: flex;
   }
@@ -183,8 +181,4 @@ h2 {
     font-size: 14px;
   }
 
-  .Logo img {
-    height: 30px;
-    width: 30px;
-  }
 }
