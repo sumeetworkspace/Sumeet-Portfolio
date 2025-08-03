@@ -357,9 +357,8 @@
   padding-left: 4vw;
 }
 .Coding-Video video{
-    height: 73px;
-    height: 11vh;
-    width: 27vh;
+    height: 10vh;
+    width: 26vh;
     transform: translateY(4px);
 
 }
