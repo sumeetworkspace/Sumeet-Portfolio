@@ -196,7 +196,7 @@ ScrollTrigger.create({
     trigger: ".Main1",
     start: "top+=50 100%",
     end: "bottom 30%",
-    markers: true,
+    // markers: true,
     onEnter: () => {
       gsap.to(".Quote-L1", { x: 0, opacity: 1, duration: 5.5,ease: "power1.in" });
       gsap.to(".Quote-L2", { x: 0, opacity: 1, duration: 5.5,ease: "power1.in" });
