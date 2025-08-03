@@ -69,13 +69,15 @@
 }
 
 .Coding-Video{
-  padding-left: 15px;
+  padding-left: 12px;
 }
 .Coding-Video video{
-    height: 120px;
+    height: 115px;
     width: 330px;
     object-fit: cover;
     border-radius: 20px;
+    transform: translateY(4px);
+
 }
 .Self{
     display: flex;
@@ -95,14 +97,6 @@
   padding: 0;
   margin: 0 ;
 }
-/* 
-.VideoPlayer {
-  height: 300px;
-  width: auto;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-  margin-bottom: 20px;
-} */
 
 .Name{
     display: flex;

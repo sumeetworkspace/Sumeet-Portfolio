@@ -25,6 +25,7 @@ const Header = () => {
       scale: 0,
       opacity: 0,
       duration: 2,
+      delay: 0.5,
       ease: "back.out(1.7)",
     },)
     .from(".nav-list h4", {
