@@ -67,14 +67,16 @@
 }
 
 .card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-image: url(./portfolio-button-portfolio-speech-bubble-portfolio-colorful-web-banner-illustration-vector.jpg);
 }
 
 .card--2 .card__img, .card--2 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-image: url(./istockphoto-635806922-612x612.jpg);
 }
 .card--3 .card__img, .card--3 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/1955134/pexels-photo-1955134.jpeg');
+    /* background-image: url('https://images.pexels.com/photos/1955134/pexels-photo-1955134.jpeg'); */
+  background-image: url(./ChatGPT\ Image\ Aug\ 4\,\ 2025\,\ 11_50_07\ PM.png);
+
 }
 .card__like {
     width: 18px;
@@ -260,20 +262,6 @@ border-bottom-right-radius: 12px;
   font-family: 'Raleway', sans-serif;
   color: black;
   margin: 0;
-}
-
-.card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
-}
-
-.card--2 .card__img, .card--2 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
-}
-.card--3 .card__img, .card--3 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/1955134/pexels-photo-1955134.jpeg');
-}
-.card__like {
-    width: 18px;
 }
 
 /* .card__clock {
