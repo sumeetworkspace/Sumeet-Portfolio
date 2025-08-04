@@ -324,9 +324,9 @@
 }
 .Main-Info{
     text-align: center;
-    transform: translate(6.5%,20%);
-    height: 57%;
-    width: 100%;
+    transform: translate(2.5%,20%);
+    height: 42vh;
+    width: 90vw;
         
 }
 .Main-Info .Hello{
@@ -342,10 +342,8 @@
 
 }
 .Self{
-
-  height: 18vh;
   width: 100%;
-  height: 80px;
+  height: 12vh;
   
 }
 .Self h1 {
@@ -370,8 +368,8 @@
 }
 .Profession{
     padding: 3px 0 0 6px;
-    /* height: 25px;
-    width: 100%; */
+    height: 5vh;
+    width: 100%;
   }
 .Profession h3{
   font-size: 5.5vw;

@@ -217,7 +217,7 @@ border-bottom-right-radius: 12px;
 @media (max-width: 400px) {
 
 .Main4{
-  min-height: 380vh;
+  min-height: 360vh;
   width: 100%;
   background-color:moccasin;
   position: relative;
@@ -328,7 +328,7 @@ top: 0;
 .card {
   transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
   background-color: #fff;
-  width: 60%;
+  width: 62%;
   height: auto  ;
   position: relative;
   border-radius: 12px;
@@ -390,24 +390,29 @@ border-bottom-right-radius: 12px;
     opacity: 1;
 }
 .Card_project{
-  height: 250vh;
+  height: 230vh;
   width: 100%;
   /* background-color: aqua; */
-  position: relative;
+  position: static;
 }
 .card--1{
-  position: absolute;
+  /* position: absolute;
   top: 7%;
-  left: 5%;
+  left: 5%; */
+  transform: translate(-2vh,0vh);
 }
 .card--2{
-  position: absolute;
+  /* position: absolute;
   top: 37%;
-  left: 35%;
+  left: 35%; */
+  transform: translate(-20.5vh,-38vh);
+
 }
 .card--3{
-  position: absolute;
+  /* position: absolute;
   top: 70.2%;
-  left: 5%;
+  left: 5%; */
+  transform: translate(-2vh,-76vh);
+
 }
 } 
