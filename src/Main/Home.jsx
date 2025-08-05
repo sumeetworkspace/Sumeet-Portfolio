@@ -239,6 +239,32 @@ ScrollTrigger.create({
     return () => ScrollTrigger.getAll().forEach(t => t.kill());
   });
 
+  mm.add("(max-width: 330px)", () => {
+  
+  gsap.set(".About", { width: 280, height: 140, padding:8});
+  gsap.set(".About p", { fontSize: 7 });
+  gsap.set(".About .button-Resume", { width: 80, height: 15, fontSize: 6 });
+
+     ScrollTrigger.create({
+      trigger: ".Main1",
+      start: "top+=100 70%",
+      end: "bottom-=100 30%",
+      // markers:true,
+      onEnter: () => {
+        gsap.to(".About", { width: 300, height: 300, padding:10, duration: 1,ease: "sine.inOut" });
+        gsap.to(".About p", { fontSize: 11, duration: 1,ease: "sine.inOut" });
+        gsap.to(".About .button-Resume", { width: 110, height: 25, fontSize: 9, duration: 1,ease: "sine.inOut" });
+      },
+      onLeaveBack: () => {
+        gsap.to(".About", { width: 280, height: 140, padding:8, duration: 1, ease: "sine.inOut"  });
+        gsap.to(".About p", { fontSize: 7, duration: 1, ease: "sine.inOut" });
+        gsap.to(".About .button-Resume", { width: 80, height: 15, fontSize: 6, duration: 1, ease: "sine.inOut" });
+      }
+    });
+    return () => ScrollTrigger.getAll().forEach(t => t.kill());
+
+  });
+
   return () => {
     ScrollTrigger.getAll().forEach(trigger => trigger.kill());
   };

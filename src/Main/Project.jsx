@@ -55,7 +55,7 @@ const Project = () => {
      */}
   </div>
   <div className="card__img"></div>
-  <a href="#" className="card_link">
+  <a href="https://github.com/sumeetworkspace/Sumeet-Portfolio" className="card_link">
      <div className="card__img--hover"></div>
    </a>
   <div className="card__info">
@@ -78,7 +78,7 @@ const Project = () => {
     
   </div>
   <div className="card__img"></div>
-  <a href="#" className="card_link">
+  <a href="https://github.com/sumeetworkspace/Enhanced-Calendar" className="card_link">
      <div className="card__img--hover"></div>
    </a>
   <div className="card__info">
@@ -100,7 +100,7 @@ const Project = () => {
      */}
   </div>
   <div className="card__img"></div>
-  <a href="#" className="card_link">
+  <a href="https://github.com/sumeetworkspace/Online-Quiz-System" className="card_link">
      <div className="card__img--hover"></div>
    </a>
   <div className="card__info">
