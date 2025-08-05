@@ -160,7 +160,7 @@ ScrollTrigger.create({
       scale: 0,
       opacity: 0,
       duration: 1.2,
-      ease: "back.out(1.7)",
+      ease: "back.out(1.3)",
     }, "-=0.5");
 
     tl.from(".Name", {

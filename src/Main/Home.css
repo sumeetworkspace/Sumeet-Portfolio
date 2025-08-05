@@ -348,15 +348,15 @@
 }
 .Self h1 {
   transform: translateY(-5px);
-  font-size: 24.5vw;
+  font-size: 27vw;
   font-weight: 700;
 }
 .Coding-Video{
-  padding-left: 3vw;
+  padding-left: 2.5vw;
 }
 .Coding-Video video{
-    height: 10vh;
-    width: 40vw;
+    height: 11vh;
+    width: 38vw;
     transform: translateY(0.5vh); 
 
 }
