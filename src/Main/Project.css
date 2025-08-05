@@ -381,26 +381,26 @@ border-bottom-right-radius: 12px;
   height: 230vh;
   width: 100%;
   /* background-color: aqua; */
-  position: static;
+  position: relative;
 }
 .card--1{
-  /* position: absolute;
+  position: absolute;
   top: 7%;
-  left: 5%; */
-  transform: translate(-1vw,0vh);
+  left: 7vh;
+  /* transform: translate(-1vw,0vh); */
 }
 .card--2{
-  /* position: absolute;
-  top: 37%;
-  left: 35%; */
-  transform: translate(-35vw,-38vh);
+  position: absolute;
+  top: 38%;
+  left: 17vh;
+  /* transform: translate(-35vw,-38vh); */
 
 }
 .card--3{
-  /* position: absolute;
-  top: 70.2%;
-  left: 5%; */
-  transform: translate(-1vw,-76vh);
+  position: absolute;
+  top: 69%;
+  left: 7vh;
+  /* transform: translate(-1vw,-76vh); */
 
 }
 } 
