@@ -386,19 +386,19 @@ border-bottom-right-radius: 12px;
 .card--1{
   position: absolute;
   top: 7%;
-  left: 7vh;
+  left: 10%;
   /* transform: translate(-1vw,0vh); */
 }
 .card--2{
   position: absolute;
   top: 38%;
-  left: 27vw;
+  left: 20%;
   /* transform: translate(-35vw,-38vh); */
 }
 .card--3{
   position: absolute;
   top: 69%;
-  left: 7vh;
+  left: 28%;
   /* transform: translate(-1vw,-76vh); */
 
 }
