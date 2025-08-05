@@ -387,20 +387,20 @@ border-bottom-right-radius: 12px;
   /* position: absolute;
   top: 7%;
   left: 5%; */
-  transform: translate(-2vh,0vh);
+  transform: translate(-1vw,0vh);
 }
 .card--2{
   /* position: absolute;
   top: 37%;
   left: 35%; */
-  transform: translate(-20.5vh,-38vh);
+  transform: translate(-35vw,-38vh);
 
 }
 .card--3{
   /* position: absolute;
   top: 70.2%;
   left: 5%; */
-  transform: translate(-2vh,-76vh);
+  transform: translate(-1vw,-76vh);
 
 }
 } 

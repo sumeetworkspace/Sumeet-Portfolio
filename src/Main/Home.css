@@ -356,8 +356,8 @@
 }
 .Coding-Video video{
     height: 10vh;
-    width: 25vh;
-    transform: translateY(4px); 
+    width: 40vw;
+    transform: translateY(0.5vh); 
 
 }
 

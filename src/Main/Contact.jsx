@@ -114,11 +114,28 @@ const Contact = () => {
         </div>
 
         <div className="social-icons">
-          <span><img src={Github} alt="" /></span>
-          <span><img src={Linkedin} alt="" /></span>
-          <span><img src={Instagram} alt="" /></span>
-          <span><img src={Facebook} alt="" /></span>
-        </div>
+        <span>
+          <a href="https://github.com/sumeetworkspace" target="_blank" rel="noopener noreferrer">
+            <img src={Github} alt="GitHub" />
+          </a>
+        </span>
+        <span>
+          <a href="https://www.linkedin.com/in/sumeet-jadhav-40687036a" target="_blank" rel="noopener noreferrer">
+            <img src={Linkedin} alt="LinkedIn" />
+          </a>
+        </span>
+        <span>
+          <a href="https://www.instagram.com/_sumeet.jadhav7_/" target="_blank" rel="noopener noreferrer">
+            <img src={Instagram} alt="Instagram" />
+          </a>
+        </span>
+        <span>
+          <a href="https://www.facebook.com/sumeet.jadhav.716533" target="_blank" rel="noopener noreferrer">
+            <img src={Facebook} alt="Facebook" />
+          </a>
+        </span>
+      </div>
+
       </div>
     </div>
   );
