@@ -73,9 +73,9 @@
 }
 .Coding-Video video{
   height: 115px;
-  width: 330px;
+  width: 320px;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 60px;
   transform: translateY(4px);
   border: 2px solid rgb(197, 165, 35);
 

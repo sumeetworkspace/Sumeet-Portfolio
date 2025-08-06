@@ -4,6 +4,7 @@ import Instagram from "./instagram.png";
 import Github from "./github.png";
 import Facebook from "./facebook.png";
 import Linkedin from "./linkedin.png"
+import emailjs from "emailjs-com"
 const Contact = () => {
   const [formData, setFormData] = useState({
     firstName: "",
@@ -19,13 +20,24 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Thank you! We'll get back to you.");
-    setFormData({
-      firstName: "",
-      lastName: "",
-      email: "",
-      phone: "",
-      message: "",
+    emailjs.sendForm(
+      "service_sumeet10",
+      "template_4d38ii7",
+      e.target,
+      "A0lQ4C5tbfXXSc2wU"
+    ).then((result)=>{
+      alert("Thank you! We'll get back to you.");
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        message: "",
+      });
+    },
+    (error)=>{
+      alert("Failed to send message, please try again.");
+      console.log(error);
     });
   };
 
