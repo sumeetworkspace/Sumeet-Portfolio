@@ -41,7 +41,7 @@ const Home = () => {
       scale: 0,
       opacity: 0,
       duration: 1,
-      ease: "back.out(1.7)",
+      ease: "back.out(1.4)",
     }, "-=0.5");
 
     tl.from(".Name", {

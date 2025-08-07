@@ -51,6 +51,8 @@ h2 {
   margin: 0 0 5px 0;
   font-weight: 500;
   font-size: 18px;
+  font-family: 'poppins', serif;
+
 }
 .skill p:hover{
   color: rgb(45, 241, 255);
