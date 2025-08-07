@@ -46,10 +46,12 @@ h2 {
   margin: 0;
   cursor: pointer;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 500;
   position: relative;
-  font-size: 20px;
-  
+  font-size: 18px;
+  /* font-family: 'Quilon', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+
 }
 
 
@@ -171,6 +173,7 @@ h2 {
     padding: 15px;
     border-radius: 10px;
     gap: 10px;
+    
   }
 
   .nav-list.active {

@@ -15,13 +15,16 @@
   padding: 20px;
 }
 .contact-form h2{
-    font-size: 12vh
+    font-size: 14vh;
+    font-family: 'Chillax', sans-serif;
+
 }
 .contact-info {
   flex: 1;
   min-width: 300px;
   padding: 20px;
   border-left: 1px solid #ccc;
+  
 }
 
 .row {
@@ -39,6 +42,8 @@
 .input-group label {
   font-weight: bold;
   margin-bottom: 5px;
+  font-family: 'poppins', serif;
+
 }
 
 .input-group input,
@@ -83,6 +88,7 @@ textarea {
   width: 15vh;
   padding: 0;
   margin-top: 25px;
+  font-family: 'poppins', serif;
   
 }
 
@@ -112,6 +118,7 @@ textarea {
   animation: glowing-button-85 20s linear infinite;
   transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
+  
 }
 
 @keyframes glowing-button-85 {
@@ -140,7 +147,9 @@ textarea {
 
 .contact-info p {
     padding-top: 3vh;
-    font-size: 2.5vh;
+    font-size: 2.3vh;
+    font-family: 'poppins', serif;
+
 }
 
 .info-item {
@@ -148,7 +157,7 @@ textarea {
   align-items: center;
   margin: 2.5vh 0;
   font-size: 2.5vh;
-
+  font-family: 'poppins', serif;
 }
 
 .info-item span {

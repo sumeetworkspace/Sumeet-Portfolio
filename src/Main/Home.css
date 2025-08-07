@@ -55,12 +55,15 @@
 }
 
 .Hello h1{
-    transform: translateY(-25px);
+    transform: translateY(-18px);
     font-size: 13rem;
-    font-weight: 900;
+    /* font-weight: 900; */
     letter-spacing: 0;
     margin: 0;
-
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  
 }
 .Comma,.Single-Quote,.Dot{
     display: flex;
@@ -73,7 +76,7 @@
 }
 .Coding-Video video{
   height: 115px;
-  width: 320px;
+  width: 280px;
   object-fit: cover;
   border-radius: 60px;
   transform: translateY(4px);
@@ -92,27 +95,32 @@
 
 }
 .Self h1 {
-  transform: translateY(-10px);
-  font-size: 10rem;
+  transform: translateY(-5px);
+  font-size: 10.5rem;
   font-weight: 700;
   padding: 0;
   margin: 0 ;
+  /* font-family: 'Author', sans-serif; */
+  font-family: 'Pally', sans-serif;
+  
 }
 
 .Name{
     display: flex;
 }
 .Name h1{
-    font-size: 9.5vh;
+    font-size: 9vh;
     padding: 0;
     margin: 0 ;
     padding-left: 10px;
+    font-family: 'Boska', serif;
+
 }
 .Profession{
     padding: 5px 0 0 10px;
     font-size: 25px;
     display: flex;
-
+    font-family: 'Chillax', sans-serif;
 }
 
 .Main1 {
@@ -199,6 +207,7 @@
   /* padding: 10px 10px 0 10px; */
   padding: 10px;
   transition: color 0.3s ease;
+  font-family: 'poppins', serif;
 }
 .About :hover p{
   color: rgb(41, 201, 246);
@@ -207,16 +216,8 @@
   overflow: hidden;
   border-radius: 15px;
   transition: all 0.5s ease;
-  padding: 8px 8px 0 8px;
+  padding: 8px 8px 0 8px;   
 }
-
-.About-Me h2 {
-  color: #0ff;
-  font-size: 2rem;
-  position: relative;
-  z-index: 2;
-}
-
 .About-Me::before {
   content: '';
   position: absolute;

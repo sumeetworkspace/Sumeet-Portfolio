@@ -324,9 +324,11 @@ ScrollTrigger.create({
             to contribute to impactful projects and innovative solutions.
           </p>
           </div>
+          <a href="/Sumeet-Resume.pdf" download>
           <button type="button" className="button-Resume"> 
             Download Resume
           </button>
+          </a>
         </div>
       </div>
     </>

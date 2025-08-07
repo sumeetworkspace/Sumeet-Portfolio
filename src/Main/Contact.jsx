@@ -105,6 +105,10 @@ const Contact = () => {
           />
         </div>
         <div className="button-wrapper">
+          <input type="hidden"
+                  name="name"
+                  value={`${formData.firstName} ${formData.lastName}`} 
+                  />
         <button type="submit" className="Send-Msg">Send Message</button>
         </div>
 
