@@ -332,13 +332,13 @@
         
 }
 .Main-Info .Hello{
-  height: 16.5vh;
+  height: 17vh;
   width: 100%;
   /* align-items: center;  */
 }
 
 .Hello h1{
-    transform: translateY(-11px);
+    transform: translateY(-8px);
     font-size: 29vw;
     font-weight: 900;
 
