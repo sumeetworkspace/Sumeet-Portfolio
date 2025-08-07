@@ -346,6 +346,8 @@
 .Self{
   width: 100%;
   height: 12vh;
+  transform: translateY(-3px);
+
 }
 .Self h1 {
   transform: translateY(-0px);
